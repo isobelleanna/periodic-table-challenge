@@ -1,1 +1,558 @@
-/*# sourceMappingURL=styles.css.map */
+@import url("https://fonts.googleapis.com/css2?family=Inconsolata&display=swap");
+.card-blank {
+  background-color: black;
+  border: 0.5px solid black;
+  height: 140px;
+}
+
+.card-periodic {
+  border: 1px solid black;
+  height: 140px;
+  width: 140px;
+  background-color: gray;
+  margin: none;
+}
+.card-periodic__div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.card-periodic__div--h2 {
+  font-family: "Inconsolata";
+}
+.card-periodic__div--p {
+  font-size: 10px;
+}
+.card-periodic--blue {
+  background-color: blue;
+}
+.card-periodic--light-blue {
+  background-color: lightblue;
+}
+.card-periodic--baby-blue {
+  background-color: cornflowerblue;
+}
+.card-periodic--pink {
+  background-color: pink;
+}
+.card-periodic--light-green {
+  background-color: green;
+}
+.card-periodic--lime {
+  background-color: lime;
+}
+.card-periodic--yellow {
+  background-color: yellow;
+}
+.card-periodic--orange {
+  background-color: orange;
+}
+.card-periodic--red {
+  background-color: red;
+}
+.card-periodic--green {
+  background-color: green;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(18, 1fr);
+  grid-template-areas: "h blank-1 blank-1 blank-1 blank-1 blank-1 blank-1 blank-1 blank-1 blank-1 blank-1 blank-1 blank-1 blank-1 blank-1 blank-1 blank-1 he ." "li be blank-2 blank-2 blank-2 blank-2 blank-2 blank-2 blank-2 blank-2 blank-2 blank-2 b c n o f ne ." "na mg blank-3 blank-3 blank-3 blank-3 blank-3 blank-3 blank-3 blank-3 blank-3 blank-3 al si p s cl ar ." "k ca sc ti ti-1 cr mn fe co ni cu zn ga ge as se br kr ." "rb sr y zr nb mo tc ru ro pd ag cd in sn sb te i ke ." "cs ba la hf ta w re os ir pt au hg tl pb bi po at rn ." "fr ra ac rf db sg bh hs mt ds rg cn cz fl mc lv ts og ." "blank-4 blank-4 blank-4 ce pr nd pm sm eu gd td dy ho er tm yb lu blank-6 ." "blank-5 blank-5 blank-5 th pa u np up am cm bk cf es fm md no lr blank-6 .";
+}
+
+.h {
+  grid-area: h;
+}
+
+.li {
+  grid-area: li;
+}
+
+.na {
+  grid-area: na;
+}
+
+.k {
+  grid-area: k;
+}
+
+.rb {
+  grid-area: rb;
+}
+
+.cs {
+  grid-area: cs;
+}
+
+.fr {
+  grid-area: fr;
+}
+
+.be {
+  grid-area: be;
+}
+
+.mg {
+  grid-area: mg;
+}
+
+.ca {
+  grid-area: ca;
+}
+
+.sr {
+  grid-area: sr;
+}
+
+.ba {
+  grid-area: ba;
+}
+
+.ra {
+  grid-area: ra;
+}
+
+.sc {
+  grid-area: sc;
+}
+
+.y {
+  grid-area: y;
+}
+
+.la {
+  grid-area: la;
+}
+
+.ac {
+  grid-area: ac;
+}
+
+.ti {
+  grid-area: ti;
+}
+
+.zr {
+  grid-area: zr;
+}
+
+.hf {
+  grid-area: hf;
+}
+
+.rf {
+  grid-area: rf;
+}
+
+.ce {
+  grid-area: ce;
+}
+
+.th {
+  grid-area: th;
+}
+
+.ti-1 {
+  grid-area: ti-1;
+}
+
+.nb {
+  grid-area: nb;
+}
+
+.ta {
+  grid-area: ta;
+}
+
+.db {
+  grid-area: db;
+}
+
+.pr {
+  grid-area: pr;
+}
+
+.pa {
+  grid-area: pa;
+}
+
+.cr {
+  grid-area: cr;
+}
+
+.mo {
+  grid-area: mo;
+}
+
+.w {
+  grid-area: w;
+}
+
+.sg {
+  grid-area: sg;
+}
+
+.nd {
+  grid-area: nd;
+}
+
+.u {
+  grid-area: u;
+}
+
+.mn {
+  grid-area: mn;
+}
+
+.tc {
+  grid-area: tc;
+}
+
+.re {
+  grid-area: re;
+}
+
+.bh {
+  grid-area: bh;
+}
+
+.pm {
+  grid-area: pm;
+}
+
+.np {
+  grid-area: np;
+}
+
+.fe {
+  grid-area: fe;
+}
+
+.ru {
+  grid-area: ru;
+}
+
+.os {
+  grid-area: os;
+}
+
+.hs {
+  grid-area: hs;
+}
+
+.sm {
+  grid-area: sm;
+}
+
+.up {
+  grid-area: up;
+}
+
+.co {
+  grid-area: co;
+}
+
+.ro {
+  grid-area: ro;
+}
+
+.ir {
+  grid-area: ir;
+}
+
+.mt {
+  grid-area: mt;
+}
+
+.eu {
+  grid-area: eu;
+}
+
+.am {
+  grid-area: am;
+}
+
+.ni {
+  grid-area: ni;
+}
+
+.pd {
+  grid-area: pd;
+}
+
+.pt {
+  grid-area: pt;
+}
+
+.ds {
+  grid-area: ds;
+}
+
+.gd {
+  grid-area: gd;
+}
+
+.cm {
+  grid-area: cm;
+}
+
+.cu {
+  grid-area: cu;
+}
+
+.ag {
+  grid-area: ag;
+}
+
+.au {
+  grid-area: au;
+}
+
+.rg {
+  grid-area: rg;
+}
+
+.td {
+  grid-area: td;
+}
+
+.bk {
+  grid-area: bk;
+}
+
+.zn {
+  grid-area: zn;
+}
+
+.cd {
+  grid-area: cd;
+}
+
+.hg {
+  grid-area: hg;
+}
+
+.cn {
+  grid-area: cn;
+}
+
+.dy {
+  grid-area: dy;
+}
+
+.cf {
+  grid-area: cf;
+}
+
+.b {
+  grid-area: b;
+}
+
+.al {
+  grid-area: al;
+}
+
+.ga {
+  grid-area: ga;
+}
+
+.in {
+  grid-area: in;
+}
+
+.tl {
+  grid-area: tl;
+}
+
+.cz {
+  grid-area: cz;
+}
+
+.ho {
+  grid-area: ho;
+}
+
+.es {
+  grid-area: es;
+}
+
+.c {
+  grid-area: c;
+}
+
+.si {
+  grid-area: si;
+}
+
+.ge {
+  grid-area: ge;
+}
+
+.sn {
+  grid-area: sn;
+}
+
+.pb {
+  grid-area: pb;
+}
+
+.fl {
+  grid-area: fl;
+}
+
+.er {
+  grid-area: er;
+}
+
+.fm {
+  grid-area: fm;
+}
+
+.n {
+  grid-area: n;
+}
+
+.p {
+  grid-area: p;
+}
+
+.as {
+  grid-area: as;
+}
+
+.sb {
+  grid-area: sb;
+}
+
+.bi {
+  grid-area: bi;
+}
+
+.mc {
+  grid-area: mc;
+}
+
+.tm {
+  grid-area: tm;
+}
+
+.md {
+  grid-area: md;
+}
+
+.o {
+  grid-area: o;
+}
+
+.s {
+  grid-area: s;
+}
+
+.se {
+  grid-area: se;
+}
+
+.te {
+  grid-area: te;
+}
+
+.po {
+  grid-area: po;
+}
+
+.lv {
+  grid-area: lv;
+}
+
+.yb {
+  grid-area: yb;
+}
+
+.no {
+  grid-area: no;
+}
+
+.f {
+  grid-area: f;
+}
+
+.cl {
+  grid-area: cl;
+}
+
+.br {
+  grid-area: br;
+}
+
+.i {
+  grid-area: i;
+}
+
+.at {
+  grid-area: at;
+}
+
+.ts {
+  grid-area: ts;
+}
+
+.lu {
+  grid-area: lu;
+}
+
+.lr {
+  grid-area: lr;
+}
+
+.he {
+  grid-area: he;
+}
+
+.ne {
+  grid-area: ne;
+}
+
+.ar {
+  grid-area: ar;
+}
+
+.kr {
+  grid-area: kr;
+}
+
+.ke {
+  grid-area: ke;
+}
+
+.rn {
+  grid-area: rn;
+}
+
+.og {
+  grid-area: og;
+}
+
+.blank-6 {
+  grid-area: blank-6;
+}
+
+.blank-2 {
+  grid-area: blank-2;
+}
+
+.blank-3 {
+  grid-area: blank-3;
+}
+
+.blank-1 {
+  grid-area: blank-1;
+}
+
+.blank-4 {
+  grid-area: blank-4;
+}
+
+.blank-5 {
+  grid-area: blank-5;
+}/*# sourceMappingURL=styles.css.map */

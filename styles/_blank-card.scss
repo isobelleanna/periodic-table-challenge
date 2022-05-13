@@ -1,0 +1,8 @@
+@use "variables" as *;
+@use "./mixins" as *;
+
+.card-blank {
+    background-color: $periodic-black;
+    border: 0.5px solid $periodic-black;
+    @include divHeight();
+}

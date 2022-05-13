@@ -1,0 +1,42 @@
+@use "variables" as *;
+@use "./mixins" as *;
+
+.card-periodic {
+    border: 1px solid black;
+    @include divHeight();
+    width: 140px;
+    background-color: $periodic-grey;
+    margin: none;
+   
+    &__div {
+        @include flexCenter();
+        flex-direction: column;
+    }
+    &__div--h2 {
+    font-family: $primary-font;
+    
+}&__div--p {
+    font-size: 10px;
+    
+}&--blue {
+    background-color: $periodic-blue;
+}&--light-blue {
+    background-color: $periodic-light-blue;
+}&--baby-blue {
+    background-color: $periodic-baby-blue;
+}&--pink {
+    background-color: $periodic-pink;
+}&--light-green {
+    background-color: $periodic-green;
+}&--lime {
+    background-color: $periodic-lime;
+}&--yellow {
+    background-color: $periodic-yellow;
+}&--orange {
+    background-color: $periodic-orange;
+}&--red {
+    background-color: $periodic-red;
+}&--green {
+    background-color: $periodic-green;
+}
+}
