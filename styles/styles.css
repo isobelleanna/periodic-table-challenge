@@ -58,7 +58,7 @@
 .grid-container {
   display: grid;
   grid-template-columns: repeat(18, 1fr);
-  grid-template-areas: "h blank-1 blank-1 blank-1 blank-1 blank-1 blank-1 blank-1 blank-1 blank-1 blank-1 blank-1 blank-1 blank-1 blank-1 blank-1 blank-1 he ." "li be blank-2 blank-2 blank-2 blank-2 blank-2 blank-2 blank-2 blank-2 blank-2 blank-2 b c n o f ne ." "na mg blank-3 blank-3 blank-3 blank-3 blank-3 blank-3 blank-3 blank-3 blank-3 blank-3 al si p s cl ar ." "k ca sc ti ti-1 cr mn fe co ni cu zn ga ge as se br kr ." "rb sr y zr nb mo tc ru ro pd ag cd in sn sb te i ke ." "cs ba la hf ta w re os ir pt au hg tl pb bi po at rn ." "fr ra ac rf db sg bh hs mt ds rg cn cz fl mc lv ts og ." "blank-4 blank-4 blank-4 ce pr nd pm sm eu gd td dy ho er tm yb lu blank-6 ." "blank-5 blank-5 blank-5 th pa u np up am cm bk cf es fm md no lr blank-6 .";
+  grid-template-areas: "h blank-1 blank-1 blank-1 blank-1 blank-1 blank-1 blank-1 blank-1 blank-1 blank-1 blank-1 blank-1 blank-1 blank-1 blank-1 blank-1 he ." "li be blank-2 blank-2 blank-2 blank-2 blank-2 blank-2 blank-2 blank-2 blank-2 blank-2 b c n o f ne ." "na mg blank-3 blank-3 blank-3 blank-3 blank-3 blank-3 blank-3 blank-3 blank-3 blank-3 al si p s cl ar ." "k ca sc ti ti-1 cr mn fe co ni cu zn ga ge as se br kr ." "rb sr y zr nb mo tc ru ro pd ag cd in sn sb te i ke ." "cs ba la hf ta w re os ir pt au hg tl pb bi po at rn ." "fr ra ac rf db sg bh hs mt ds rg cn cz fl mc lv ts og ." "blank-4 blank-4 blank-4 ce pr nd pm sm eu gd td dy ho er tm yb lu blank-6 ." "blank-5 blank-5 blank-5 th pa u np up am cm bk cf es fm md no lr blank-7 .";
 }
 
 .h {
@@ -555,4 +555,8 @@
 
 .blank-5 {
   grid-area: blank-5;
+}
+
+.blank-7 {
+  grid-area: blank-7;
 }/*# sourceMappingURL=styles.css.map */
